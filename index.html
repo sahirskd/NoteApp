@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="paper.css" />
+    <meta
+      name="description"
+      content="NoteApp. Free, Light-Weight, Fast, and Fully Offline NoteApp and no details/login required."
+    />
+    <meta property="type" content="website" />
+    <meta property="url" content="https://sahirskd.github.io/NoteApp/" />
+    <meta property="title" content="NoteApp" />
+    <meta
+      property="description"
+      content="NoteApp Offline fully add free app."
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico" />
+    <meta name="theme-color" content="#fff">
+    <link rel="manifest" href="/manifest.json"></link>
+    <style>
+      .searchTxt {
+        margin: 2% 1% 1% 0%;
+      }
+
+      #searchtxt {
+        width: 100%;
+      }
+
+      .textForm {
+        margin: 22% 0% 0% 2%;
+      }
+
+      #addtext {
+        width: 98%;
+      }
+
+      #addbtn {
+        width: 98%;
+        margin-top: 2%;
+      }
+
+      .alert-secondary {
+        width: 92%;
+        margin-left: 4%;
+      }
+    </style>
+    <title>NoteApp</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="border fixed split-nav">
+      <div class="nav-brand">
+        <h3><a href="#">NoteApp</a></h3>
+      </div>
+
+      <div class="form-group searchTxt">
+        <input
+          id="searchtxt"
+          type="Search"
+          placeholder="Search"
+          id="paperInputs1"
+        />
+      </div>
+      <!-- <div class="collapsible">
+            <input id="collapsible1" type="checkbox" name="collapsible1">
+            <label for="collapsible1">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </label> -->
+      <!-- <div class="collapsible-body">
+            <ul class="inline">
+                <li><a href="#">Documentation</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Github</a></li>
+            </ul>
+          </div>
+        </div> -->
+    </nav>
+    <!-- navbar -->
+
+    <div class="form-group textForm">
+      <textarea id="addtext" placeholder="Write your notes here!"></textarea>
+      <button id="addbtn" class="btn-block btn-small btn-success-outline">
+        Add Note
+      </button>
+    </div>
+
+    <div id="notes"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
