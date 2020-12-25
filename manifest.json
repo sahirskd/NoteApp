@@ -3,9 +3,9 @@
     "lang": "en",
     "name": "NoteApp",
     "short_name": "NoteApp",
-    "scope": "/NoteApp/index.html",
+    "scope": "https://sahirskd.github.io/NoteApp/",
     "display": "standalone",
-    "start_url": "/index.html",
+    "start_url": "https://sahirskd.github.io/NoteApp/",
     "background_color": "#fff",
     "theme_color": "#fff",
     "description": "AdFree. Offline. NoteApp.",
@@ -17,6 +17,6 @@
         {"src":"/NoteApp/android-chrome-512x512.png","sizes":"512x512","type":"image/png"},
         {"src":"/NoteApp/favicon-16x16.png", "sizes":"16x16", "type":"image/png"}
     ],
-    "url": "/index.html",
+    "url": "https://sahirskd.github.io/NoteApp/",
     "screenshots": []
 }
