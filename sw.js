@@ -1,15 +1,15 @@
 const NoteApp = "NoteApp"
 const assets = [
   "/",
-  "/index.html",
-  "/paper.css",
-  "/index.js",
-  "/favicon-16x16.png",
-  "/favicon-32x32.png",
-  "/favicon.ico",
-  "/apple-touch-icon.png",
-  "android-chrome-192x192.png",
-  "android-chrome-512x512.png",
+  "/NoteApp/index.html",
+  "/NoteApp/paper.css",
+  "/NoteApp/index.js",
+  "/NoteApp/favicon-16x16.png",
+  "/NoteApp/favicon-32x32.png",
+  "/NoteApp/favicon.ico",
+  "/NoteApp/apple-touch-icon.png",
+  "/NoteAppandroid-chrome-192x192.png",
+  "/NoteAppandroid-chrome-512x512.png",
 ]
 
 self.addEventListener("install", installEvent => {
