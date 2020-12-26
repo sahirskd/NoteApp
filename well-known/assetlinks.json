@@ -1,5 +1,0 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target" : { "namespace": "android_app", "package_name": "io.github.sahirskd.twa",
-                   "sha256_cert_fingerprints": ["95:25:2A:64:5F:4F:2C:13:A1:70:59:58:35:C7:4D:6E:96:BF:D7:52:7B:FF:7B:91:9E:01:9D:C1:F3:85:DE:B5"] }
-    }]
